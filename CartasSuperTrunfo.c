@@ -2,22 +2,22 @@
 int main(){
 printf("Desafio super trunfo!\n");
 
-char opção ;
+char opcao ;
 char nome [50];
-int população ,numero de pontos turisticos;
+int populacao ,numero_de_pontos_turisticos;
 float area, pib;
 
-prinf("digite o nome da opção:\n");
+printf("digite o nome da opção:\n");
 sanf("%s",&opção);
 
 prinf("digite o nome da cidade e codigo:\n");
 scanf("%s",&nome );
 
 prinf("digite população e numero de pontos:\n");
-scanf("%d",&população);
+scanf("%d",&populacao);
 
-printf("digite area e pib:\n");
-sanf("%f",&area e pib);
+printf("digite area:\n");
+sanf("%f",&area_e_pib);
 
 
 return 0;
