@@ -3,9 +3,12 @@ int main(){
 printf("Desafio super trunfo!\n");
 
 char opcao ;
-char nome, codigo [50];
+char nome, codigo [50];1
 int populacao ,numero_de_pontos_turisticos;
 float area, pib;
+float densidade_ populacional,PIB;
+divisão = densidade_ populacional/PIB ;
+
 
 printf("digite o nome da opcao:\n");
 scanf("%s",&opcao);
@@ -27,6 +30,10 @@ scanf("%f",&area);
 
 printf("digite o numero do pib:\n");
 scanf("%f",&pib);
+
+printf("a densidade populacionalé : %f\n", densiade populacional);
+printf("o pib é: %f\n", pib); 
+
 
 char opcao_2 ;
 char nome_2, codigo_2 [50];
