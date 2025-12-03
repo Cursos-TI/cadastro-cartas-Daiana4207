@@ -6,8 +6,8 @@ char opcao ;
 char nome, codigo [50];1
 int populacao ,numero_de_pontos_turisticos;
 float area, pib;
-float densidade_ populacional,PIB;
-divisão = densidade_ populacional/PIB ;
+float densidade_ populacional,PIB__Precapita,divisão;
+divisão = densidade_ populacional/PIB_Percapita;  ;
 
 
 printf("digite o nome da opcao:\n");
@@ -31,8 +31,8 @@ scanf("%f",&area);
 printf("digite o numero do pib:\n");
 scanf("%f",&pib);
 
-printf("a densidade populacionalé : %f\n", densiade populacional);
-printf("o pib é: %f\n", pib); 
+printf("a densidade populacionalé : %2f\n", densidade_ populacional);
+printf("o pib_percapita é: %2f\n", pib_percapita); 
 
 
 char opcao_2 ;
